@@ -12,13 +12,13 @@ const Header = () => {
 
     <div className="container">
       <Navbar expand="lg" className="">
-        <Navbar.Brand href="#">
+        <Navbar.Brand href="/">
           <img src={Logo} alt="" width={100} />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav className="ms-auto my-2 my-lg-0" navbarScroll>
-            <Nav.Link href="#action1">Mens</Nav.Link>
+            <Nav.Link href="/shop">Mens</Nav.Link>
             <Nav.Link href="#action2">Womens</Nav.Link>
             <Nav.Link href="#action3">Kids</Nav.Link>
           </Nav>

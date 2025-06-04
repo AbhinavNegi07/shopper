@@ -3,7 +3,7 @@ import ProductImg from "../../assets/images/products/product-1.jpg";
 
 const LatestProducts = () => {
   return (
-    <section className="section-2 py-5">
+    <section className="section-2 pt-5">
     <div className="container">
       <h2>New Arrivals</h2>
       <div className="row mt-3">
