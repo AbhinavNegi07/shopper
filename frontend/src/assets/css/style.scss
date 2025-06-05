@@ -58,6 +58,12 @@ ul {
   max-width: 1240px;
 }
 
+.nav-tabs{
+  .nav-link{
+    color: $primary-black;
+  }
+}
+
 .btn {
   &.btn-size {
     background-color: rgba($primary-black, 0.03);
@@ -157,6 +163,20 @@ header {
   }
 }
 
+.product-detail{
+  .mySwiper{
+    .swiper-slide{
+      height: auto !important;
+    }
+  }
+  .price{
+    font-weight: bold;
+    span{
+      color: rgba($primary-black, 0.5);
+    }
+  }
+}
+
 footer{
   background-color: $tertiary-color;
   h2{
@@ -176,6 +196,8 @@ footer{
     border-bottom: 1px solid rgba($primary-white, 0.2);
   }
 }
+
+
 
 
 @media(min-width:200px) and (max-width:768px){
